@@ -1,0 +1,103 @@
+<html>
+<head><title></title>
+</head>
+<body bgcolor="lightgreen">
+<style>
+:root{
+  --agarwal:lightblue;
+}
+#a{
+	
+	color: green;
+}
+	
+#b{
+
+	color:yellow;
+}
+@media(max-width: 300px){
+	:root{
+		--agarwal:pink;
+	}
+
+}
+.container{
+	background: lightgrey;
+	font-size: 40px;
+}
+.hoverclass {
+	display: inline;
+}
+.hoverclass:hover{
+	background-color:Blue;
+	width: 30px
+
+}
+#c{
+	color:blue;
+}
+.nowrap{
+	display: inline-block;
+}
+#hardik{
+	font-style:georgia; font-size:60;color:black;
+}
+fieldset{
+	margin-left: 20%;margin-right:20%;background-color:var(--agarwal,lightblue);margin-bottom: 10%;
+	
+}
+#hello{
+	font-style:Microsoft YaHei UI Light;
+}
+.hyy{
+	font-style: Calibri;font-size: 25;
+}
+#Checkbox{
+	margin: 20px 10px 20px 10px;display:inline-block;height: 15px;width: 15px;background-color:#eee;
+}
+
+.button{
+   background-color:Orange ;height: 5%;width: 14%;border:0;
+}
+#u{
+
+	color: blue;display: inline-block;
+}
+.temp{
+	display: inline-block;
+}
+.xyz{
+	height: 30px ; width: 25%
+}
+
+</style>
+<center>
+<span class="nowrap"><h1 id="a">Welcome<h1></h1></span>
+<span class="nowrap"><h1 id="b">To</h1></span>
+<span class="nowrap"><h1 id="c">WebDev Basics 19.1</h1></span>
+<hr style="border:solid; padding: 5px 10px 0px 5px color:black;width:30%">
+<font face="Gabriola" size="8" ><p class="hoverclass">CSS Workshop:Task</p></font>
+</center>
+<center>
+<fieldset>
+<legend id="hardik">Sign Up</legend>
+<div id="hello">Please Fill In This Form To Create An Account</div>
+<br>
+<div class="hyy">Email:&nbsp<input type="text" placeholder ="xxx@gmail.com" class="xyz"></div>
+<br>
+<div class="hyy">Password:&nbsp<input type="Password" placeholder="Password" class="xyz"></div>
+<br>
+<div class="hyy">Confirm Password:&nbsp<input type="Password" placeholder="Password" class="xyz"></div></div>
+<br>
+<div class="hyy">Mobile No:&nbsp<input type="Phone" placeholder=" Enter Mobile No" class="xyz"></div>
+<input type="Checkbox" name="Checkbox" id="Checkbox" >Remember Me
+<br><br>
+BY CREATING AN ACCOUNT YOU AGREE TO OUR  <p id="u"><U>TERMS & PRIVACY</U></p>
+<br><br>
+<input type="button" value="Submit" class="button">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="button" name="Reset" value="Reset" class="button">
+</fieldset>
+</center>
+</body>
+</html> 
