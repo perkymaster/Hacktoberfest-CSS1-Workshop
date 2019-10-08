@@ -2,7 +2,9 @@
 
 <img src="https://developers.google.com/community/dsc/images/dsc_lockup.png" height="100px">
 
-This repository contains, code for the task of HTML-Workshop.
+This repository contains, code for the task of CSS1-Workshop.
+
+![Hacktoberfest](https://travis-ci.org/gobuffalo/tags.svg?branch=master)
 
 **How to contribute**
 
